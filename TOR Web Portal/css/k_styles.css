@@ -1,0 +1,235 @@
+.workField {
+    border-radius: 10px;
+    padding: 31px 0px;
+    background: #fff !important;
+}
+.workField p {
+    padding: 0px;
+    margin: 0px;
+}
+.headingRow {
+    padding: 0px 40px 20px 40px;
+}
+.searchBlock {
+    height: 28px;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    text-align: left;
+    /*margin-right: 40px;*/
+    margin-top: 3px;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: right;
+}
+.searchBlock img {
+    max-width: 13px;
+    margin-left: 8px;
+    text-align: left;
+}
+.searchBlock input {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    letter-spacing: -0.13px;
+    /* color: #9b9b9b; */
+    padding-top: 1px;
+    padding-left: 1px;
+    color: #777;
+}
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    color: #000000;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: left;
+    display: inline-block;
+}
+.t_heading {
+    margin: 0px 40px 0px 40px;
+}
+.t_body {
+
+}
+.t_heading p {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    color: #9b9b9b;
+    text-align: left;
+}
+.t_row p {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.13px;
+    color: #000000;
+    text-align: left;
+}
+.t_tb {
+    margin: 0px 0px;
+}
+.t_heading img {
+    max-width: 6px;
+    margin-bottom: 1px;
+}
+.t_row {
+    margin: 0px 0px;
+    padding: 10px 40px;
+    height: 40px;
+}
+.t_row:hover {
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.errorTextStyle {
+    color: red;
+    font-size: 0.85em;
+}
+.whiteRow {
+    background-color: #fff;
+}
+.clear {
+    clear: both;
+}
+
+.t_cell {
+    display: inline-block;
+}
+
+/* -------------------------------- Склад --------------------------------- */
+
+.numberInput {
+    border-bottom: solid 1px #20ad65;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.13px;
+    color: #000000;
+    text-align: center;
+}
+.errorSpare {
+    border: 1px solid red !important;
+}
+.companyCell {
+    width: 20%;
+}
+.objectCell {
+    width: 30%;
+}
+.serialCell {
+    width: 20%;
+}
+.leftAmountCell {
+    width: 15%;
+}
+.t_row .leftAmountCell p {
+    display: none;
+}
+.neededAmountCell {
+    width: 12%;
+}
+.t_row .neededAmountCell p {
+    display: none;
+}
+/* -------------------------------- Заявка ------------------------------------- */
+.orderDocsDetails {
+
+}
+.detailsHeading {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    color: #000000;
+}
+.detailsHeading p {
+    display: inline;
+}
+.detailsHeading img {
+    max-width: 20px;
+    margin-left: 5px;
+}
+.detailsHeading img:hover {
+    cursor: pointer;
+}
+.detailsTableHeading {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    color: #9b9b9b;
+}
+.detailsTableRows {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.11px;
+    color: #000000;
+}
+.detailsAddDetail {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.11px;
+    color: #9b9b9b;
+    margin-top: 13px;
+}
+.detailsTableRows input {
+    border-bottom: 2px solid #20ad65;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.11px;
+    color: #000000;
+}
+.detailsTableRows p {
+    margin: 0px;
+}
+.detailsAddDetail p {
+    transition: all 0.15s ease-in-out;
+}
+.detailsAddDetail p:hover {
+    cursor: pointer;
+    color: #333;
+
+}
+.detailsTableRows .row {
+    margin-top: 13px;
+}
+
+/* --------------------------------- DROP ZONE ------------------------------------ */
+#myDropzone {
+    padding: 0px 0px 0px 0px;
+    border: none;
+}

@@ -1,0 +1,117 @@
+@media (max-width: 768px) {
+    .workField form {
+        margin: 0px;
+        padding: 0px;
+    }
+    .workField {
+        background-color: #f2f2f2 !important;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .t_row {
+        padding: 16px 20px 16px 20px;
+        background-color: #fff;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        height: 105px;
+        margin: 10px 0px;
+    }
+    .t_row:hover {
+        cursor: default;
+        background-color: #fff;
+    }
+    .headingRow {
+        padding: 22px 20px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    .companyCell {
+        display: block;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .companyCell p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: normal;
+        letter-spacing: 0.64px;
+        color: #9b9b9b;
+    }
+    .objectCell {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.13px;
+        display: inline-block;
+        width: 55%;
+        text-align: left;
+    }
+    .serialCell {
+        color: #9b9b9b;
+        font-size: 14px;
+        letter-spacing: 1px;
+        display: inline-block;
+        width: 40%;
+    }
+    .serialCell p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .t_row .leftAmountCell {
+        display: inline-block;
+        width: 55%;
+    }
+    .t_row .leftAmountCell p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: normal;
+        letter-spacing: 0.64px;
+        color: #9b9b9b;
+        display: inline-block;
+    }
+    .numberInput {
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: -0.18px;
+        color: #000000;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .t_row .neededAmountCell {
+        display: inline-block;
+        width: 40%;
+    }
+    .t_row .neededAmountCell p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: normal;
+        letter-spacing: 0.64px;
+        color: #9b9b9b;
+        display: inline-block;
+    }
+    .t_heading .companyCell {
+        display: none;
+    }
+    .t_heading .neededAmountCell {
+        display: none;
+    }
+    .t_heading .leftAmountCell {
+        display: none;
+    }
+    .t_heading .serialCell {
+        display: none;
+    }
+    .t_heading .objectCell {
+        display: none;
+    }
+
+    .searchBlock {
+        display: block;
+        float: none;
+        max-width: 300px;
+        margin: 10px 0px 10px 0px;
+    }
+    .heading {
+        display: block;
+    }
+}
